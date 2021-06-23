@@ -1,0 +1,43 @@
+.button {
+  color: $black;
+  border: 2px solid $black;
+  padding: $control-size/4 $control-size/2;
+  font-size: $font-size;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+
+  &:hover {
+    text-decoration: none;
+    color: $white;
+    background: darken($black, 20%);
+    border: 2px solid darken($black, 20%);
+  }
+}
+
+.button.button-primary {
+  color: $white;
+  background: $black;
+
+  &:hover {
+    text-decoration: none;
+    background: darken($black, 20%);
+    border: 2px solid darken($black, 20%);
+  }
+}
+
+.button.button-highlight {
+  border: 2px solid $highlight;
+  color: $white;
+  background: $highlight;
+
+  &:hover {
+    text-decoration: none;
+    background: darken($highlight, 5%);
+    border: 2px solid darken($highlight, 5%);
+  }
+}
+
+.button.button-sm {
+  padding: $control-size/6 $control-size/3;
+  font-size: $font-size*4/5;
+}

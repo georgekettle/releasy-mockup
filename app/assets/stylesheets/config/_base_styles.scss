@@ -1,0 +1,33 @@
+body {
+  background: $body;
+}
+
+h1, h2, h3, h4 {
+  color: $black;
+  font-family: $headers-font;
+}
+
+h5, h6 {
+  color: $primary;
+  font-family: $body-font;
+}
+
+p {
+  color: $paragraph;
+  font-family: $body-font;
+}
+
+a {
+  font-family: $headers-font;
+  color: $highlight;
+}
+
+.header-lg {
+  font-size: $font-size * 5;
+  letter-spacing: -$font-size * 1/4
+}
+
+.header-md {
+  font-size: $font-size * 3;
+  letter-spacing: -$font-size * 1/7
+}
