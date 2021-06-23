@@ -1,0 +1,28 @@
+.underline-input-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid $primary-green;
+  padding-bottom: 10px;
+  max-width: $control-size * 20;
+
+  svg {
+    height: 24px;
+    margin-right: $control-size * 1/4;
+  }
+}
+
+.hidden-input {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: $black;
+  font-weight: 400;
+
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
+.hidden-input::placeholder {
+  color: $primary-green;
+}

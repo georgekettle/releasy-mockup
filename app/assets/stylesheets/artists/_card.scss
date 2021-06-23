@@ -1,0 +1,50 @@
+.artist {
+  width: 25%;
+  padding: $control-size * 1/4;
+
+  .artist-card {
+    position: relative;
+
+    .heart-button {
+      background: white;
+      border-radius: 100%;
+      width: $control-size;
+      height: $control-size;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+
+      .heart {
+        stroke: $black;
+      }
+
+      &:hover {
+        background: $highlight;
+
+        .heart {
+          stroke: $body;
+        }
+      }
+    }
+
+    .artist-image {
+      width: 100%;
+      margin-bottom: $control-size * 1/6;
+    }
+
+    .artist-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .artist-name {
+        color: $black;
+        font-weight: 400;
+      }
+    }
+  }
+}

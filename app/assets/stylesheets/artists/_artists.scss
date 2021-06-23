@@ -1,0 +1,6 @@
+.artists {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + $control-size * 1/2);
+  margin: 0px -$control-size * 1/4;
+}
