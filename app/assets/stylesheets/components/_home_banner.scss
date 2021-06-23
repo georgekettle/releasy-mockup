@@ -1,0 +1,17 @@
+.home-banner {
+  height: 80vh;
+  position: relative;
+
+  .banner-header {
+    max-width: $control-size * 20;
+    margin-bottom: $control-size;
+    margin-top: $control-size * 4;
+  }
+
+  .banner-img {
+    position: absolute;
+    bottom: -$control-size;
+    right: -$control-size;
+    height: 95%;
+  }
+}

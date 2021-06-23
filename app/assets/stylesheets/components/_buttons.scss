@@ -5,6 +5,7 @@
   font-size: $font-size;
   text-decoration: none;
   transition: 0.2s ease-out;
+  display: inline-block;
 
   &:hover {
     text-decoration: none;
@@ -19,7 +20,6 @@
   background: $black;
 
   &:hover {
-    text-decoration: none;
     background: darken($black, 20%);
     border: 2px solid darken($black, 20%);
   }
@@ -31,9 +31,18 @@
   background: $highlight;
 
   &:hover {
-    text-decoration: none;
     background: darken($highlight, 5%);
     border: 2px solid darken($highlight, 5%);
+  }
+}
+
+.button.button-basic {
+  border: 2px solid transparent;
+  color: $black;
+
+  &:hover {
+    border: 2px solid $body-darken;
+    background: $body-darken;
   }
 }
 

@@ -22,8 +22,14 @@ a {
   color: $highlight;
 }
 
+// colors
+.text-highlight {
+  color: $highlight;
+}
+
+// header sizes
 .header-lg {
-  font-size: $font-size * 5;
+  font-size: $font-size * 4;
   letter-spacing: -$font-size * 1/4
 }
 

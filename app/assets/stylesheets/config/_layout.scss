@@ -1,0 +1,21 @@
+.contain {
+  padding: $control-size/2 $control-size;
+  max-width: $control-size * 30;
+  margin: 0px auto
+}
+
+.contain-sm {
+  padding: $control-size/2 $control-size;
+  max-width: $control-size * 20;
+  margin: 0px auto
+}
+
+.contain-lg {
+  padding: $control-size/2 $control-size;
+  max-width: $control-size * 40;
+  margin: 0px auto
+}
+
+.bg-white {
+  background: white;
+}
