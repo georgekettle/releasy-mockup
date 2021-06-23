@@ -1,0 +1,30 @@
+.feature {
+  display: flex;
+  align-items: center;
+  padding: $control-size;
+
+  .image-container {
+    width: $control-size * 12;
+    height: $control-size * 12;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .info {
+    padding: $control-size * 2;
+    max-width: $control-size * 10
+
+    p {
+      letter-spacing: 0.05rem;
+      margin-bottom: $control-size;
+    }
+  }
+}
