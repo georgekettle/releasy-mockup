@@ -1,0 +1,26 @@
+<div class="contain page-banner">
+  <h1 class="header-lg">Following</h1>
+  <div class="underline-input-container">
+    <svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Desktop-HD-Copy-11" transform="translate(-78.000000, -361.000000)" stroke="#738881" stroke-width="2.5">
+                <g id="Group" transform="translate(80.000000, 363.000000)">
+                    <g id="Path">
+                        <path d="M22.1923874,3.80761275 C27.2692043,8.88442963 27.2692043,17.1155706 22.1923874,22.1923874 C17.1155706,27.2692043 8.88442963,27.2692043 3.80761275,22.1923874 C-1.26920412,17.1155706 -1.26920412,8.88442963 3.80761275,3.80761275 C8.88442963,-1.26920412 17.1155706,-1.26920412 22.1923874,3.80761275"></path>
+                        <path d="M29.0000001,29.0000001 L22.0000001,22.0000001"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <input type="text" placeholder="Search an artist" class="hidden-input">
+  </div>
+</div>
+
+<div class="contain">
+  <div class="artists">
+    <% 20.times do %>
+      <%= render 'artists/artist' %>
+    <% end %>
+  </div>
+</div>

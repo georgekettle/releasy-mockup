@@ -8,6 +8,17 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-lewagon .navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+
+  img {
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+
+.nav-item {
+  margin-left: 5px;
 }

@@ -7,6 +7,9 @@ class PagesController < ApplicationController
   def discover
   end
 
+  def following
+  end
+
   def new_releases
   end
 
