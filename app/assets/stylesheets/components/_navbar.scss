@@ -19,6 +19,20 @@
   }
 }
 
-.nav-item {
-  margin-left: 5px;
+.avatar {
+  filter: grayscale(100%);
+
+  &:hover {
+    filter: grayscale(0%);
+  }
 }
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+
+  .nav-item {
+    margin-left: 5px;
+  }
+}
+

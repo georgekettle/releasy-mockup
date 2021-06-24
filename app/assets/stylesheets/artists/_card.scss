@@ -34,6 +34,7 @@
     .artist-image {
       width: 100%;
       margin-bottom: $control-size * 1/6;
+      filter: grayscale(100%);
     }
 
     .artist-info {
@@ -44,6 +45,12 @@
       .artist-name {
         color: $black;
         font-weight: 400;
+      }
+    }
+
+    &:hover {
+      .artist-image {
+        filter: grayscale(0%);
       }
     }
   }
