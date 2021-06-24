@@ -1,0 +1,81 @@
+.releases-date-header {
+  margin: $control-size * 0.5 0px;
+  font-size: $font-size * 1.5;
+  color: $primary-green;
+  text-transform: upcase;
+}
+
+.artist-new-release {
+  background: white;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+
+  .image-container {
+    width: $control-size * 5;
+    height: $control-size * 5;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .release-info {
+    flex-grow: 1;
+    width: 100%;
+    height: $control-size * 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $control-size;
+
+    .release-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+
+      .title-and-artist {
+        h5 {
+          color: $black;
+          font-size: $font-size * 1.5;
+          margin-bottom: 2px;
+        }
+
+        h4 {
+          color: $primary-green;
+          font-size: $font-size;
+        }
+      }
+
+      .release-types {
+        align-items: center;
+        display: flex;
+
+        .album-or-single {
+          align-items: center;
+          display: flex;
+          color: $primary-green;
+          font-weight: 400;
+        }
+
+        svg {
+          stroke: $primary-green;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.1);
+  }
+}

@@ -5,7 +5,9 @@ class PagesController < ApplicationController
   end
 
   def discover
+  end
 
+  def new_releases
   end
 
   def components
